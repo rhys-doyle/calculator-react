@@ -1,0 +1,14 @@
+.heading {
+  font-size: 5rem;
+  text-align: center;
+  color: lightseagreen;
+  margin-top: 6rem;
+}
+
+.heading span {
+  border-bottom: 3px solid rgb(32, 32, 32);
+}
+
+.heading span:hover {
+  border-bottom: 3px solid lightcoral;
+}

@@ -1,5 +1,14 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(32, 32, 32);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 7% 0 0 0;
+}
+
+.calculatorBox div:nth-child(6) {
+  padding: 7% 0 7% 0;
 }

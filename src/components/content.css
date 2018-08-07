@@ -1,0 +1,13 @@
+.content {
+  text-align: right;
+  color: white;
+}
+
+.contentBox div {
+  font-size: 2.7rem;
+  padding: 1.5rem 0 0;
+}
+
+.content span {
+  color: lightcoral;
+}

@@ -1,0 +1,56 @@
+.push {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  box-shadow: 5px 5px rgb(85, 87, 87);
+  width: 21.25%;
+  padding: 6.2% 0;
+  border-radius: 15%;
+  transition: background-color linear 450ms, transform ease 75ms,
+    box-shadow linear 75ms;
+}
+
+.data {
+  background: linear-gradient(
+    to bottom right,
+    rgba(135, 206, 250, 0.8) 0%,
+    rgba(40, 70, 92, 0.6) 100%
+  );
+}
+
+.data:hover {
+  background-color: rgb(139, 222, 250);
+  color: black;
+}
+
+.operand {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 160, 122, 0.8) 0%,
+    rgba(121, 61, 38, 0.6) 100%
+  );
+}
+
+.operand:hover {
+  background-color: rgb(248, 201, 183);
+  color: black;
+}
+
+.calculatorBox div:last-child button:last-child {
+  background: linear-gradient(
+    to bottom right,
+    rgba(32, 178, 170, 0.8) 0%,
+    rgba(17, 95, 91, 0.6) 100%
+  );
+}
+
+.calculatorBox div:last-child button:last-child:hover {
+  background-color: rgb(189, 245, 242);
+  color: black;
+}
+
+.calculatorBox div:last-child button:first-child {
+  width: 47.5%;
+  border-radius: 18px;
+}

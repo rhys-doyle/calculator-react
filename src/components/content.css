@@ -11,3 +11,7 @@
 .content span {
   color: lightcoral;
 }
+
+.screen .contentBox:nth-child(2) .content {
+  font-size: 3.5rem;
+}
